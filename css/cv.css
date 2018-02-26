@@ -1,0 +1,201 @@
+
+.ff{
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  background-color:  	 	#F0E68C;
+}
+
+.bgfond1{
+  background-color:#FFEFD5;
+}
+
+.prenom{
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.descri{
+font-family: Courier, monospace;
+}
+
+.centre{
+  text-align: center;
+}
+
+.hobbies{
+  font-family: URW Chancery L, cursive;
+}
+
+.parcour{
+  height: 150px;
+  padding-top: 60%;
+}
+
+.photo{
+  height: 150px;
+  width: 150px;
+}
+
+.images{
+  height: 9px;
+  width:9px;
+}
+.motivation{
+  font-size: 10px;
+}
+
+.info1{
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.info2{
+  font-size: 12px;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.esp_comp{
+  margin-top: 20px;
+}
+
+.esp_adresse{
+  margin-bottom: 20px;
+}
+
+.button1{
+  font-size: 12px;
+  background-color: blue;
+  color: white;
+  border:3px solid black;
+  margin-top: 3px;
+}
+.button1:hover{
+  cursor:pointer;
+}
+
+.button2{
+  font-size: 12px;
+  background-color: red;
+  color: white;
+  border:3px solid black;
+  margin-top: 3px;
+}
+.button2:hover{
+  cursor:pointer;
+}
+.maps{
+  width: auto;
+  height: 300px;
+}
+
+.button3{
+  font-size: 12px;
+  background-color: Purple;
+  color: white;
+  border:3px solid black;
+  margin-top: 3px;
+}
+.button3:hover{
+  cursor:pointer;
+}
+.test1{
+  background-color: red;
+  color: yellow;
+}
+
+.titre{
+   font-family: URW Chancery L, cursive;
+   color: white;
+   background-color: green;
+}
+
+h2{
+  font-family: Andale Mono, monospace;
+}
+
+.hobbies{
+  text-decoration: underline;
+}
+
+.prenom{
+  text-decoration: underline;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 1px;
+  right: 5px;
+  z-index: 99;
+  font-size: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1px;
+  border-radius: 80px;
+
+}
+.fleche{
+  height: 30px;
+  width: 30px;
+}
+
+@media (min-width: 760px) {
+	.info2, .info1{
+        font-size:20px;
+        height: 16px;
+        width:16px;
+        margin-top: 15px;
+	}
+  .hobbies{
+    font-size:40px;
+  }
+
+  .motivation{
+    font-size: 20px;
+  }
+  .photo{
+    height: 190px;
+    width: 190px;
+  }
+  .titre, .descri{
+    font-size:30px;
+  }
+  .prenom{
+    font-size:80px;
+  }
+  .button1, .button2, .button3{
+    font-size:25px;
+  }
+
+  #chats, #temp1, #wordpress1, #miniblog, #formu, #hide, #converti, #coucou, #plus, #ninja, #myiframe  {
+    height:1000px;
+    width: 1000px;
+  }
+  .parcour{
+    height: 250px;
+
+  }
+  .images{
+        font-size:20px;
+        height: 16px;
+        width:16px;
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 80px;
+
+  }
+  .fleche{
+    height: 60px;
+    width: 60px;
+  }
+}
