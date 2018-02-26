@@ -68,6 +68,7 @@ font-family: Courier, monospace;
   color: white;
   border:3px solid black;
   margin-top: 3px;
+  width: 200px;
 }
 .button1:hover{
   cursor:pointer;
@@ -79,6 +80,7 @@ font-family: Courier, monospace;
   color: white;
   border:3px solid black;
   margin-top: 3px;
+  width: 200px;
 }
 .button2:hover{
   cursor:pointer;
@@ -165,9 +167,10 @@ h2{
   }
   .button1, .button2, .button3{
     font-size:25px;
+    width: 500px;
   }
 
-  #chats, #temp1, #wordpress1, #miniblog, #formu, #hide, #converti, #coucou, #plus, #ninja, #myiframe  {
+  #chats, #temp1, #wordpress1, #miniblog, #formu, #pong, #hide, #converti, #coucou, #plus, #ninja, #myiframe  {
     height:1000px;
     width: 1000px;
   }

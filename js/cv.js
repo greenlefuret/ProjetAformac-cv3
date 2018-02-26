@@ -126,6 +126,16 @@ function myiframeshow10(){
             targetElement.style.display = "none" ;
             }
             }
+function myiframeshow11(){
+            var targetElement;
+            targetElement = document.getElementById("pong") ;
+            if (targetElement.style.display == "none")
+            {
+            targetElement.style.display = "" ;
+            } else {
+            targetElement.style.display = "none" ;
+            }
+            }
 
             // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};

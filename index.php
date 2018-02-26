@@ -397,6 +397,19 @@
                 </iframe>
             </div>
         </div>
+
+        <div class="row ">
+            <div class="col-12 centre ">
+                <input class="button1 w3-button w3-purple w3-hover-white" type="button" onclick="myiframeshow11('block');" value=" Afficher/Fermer Projet Pong" />
+            </div>
+            <div class="col-12 centre">
+                <iframe id="pong" style="display:none" src="projets/kim_pong_un/index.php" width="auto" height="400" scrolling="auto" frameborder="1">
+                    <p>
+                      Your browser does not support iframes.
+                    </p>
+                </iframe>
+            </div>
+        </div>
     </div>
 
   </body>
